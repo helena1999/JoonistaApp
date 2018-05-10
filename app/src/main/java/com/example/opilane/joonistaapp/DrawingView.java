@@ -39,6 +39,8 @@ public class DrawingView extends View {
         drawPaint.setStrokeJoin(Paint.Join.ROUND);
         drawPaint.setStrokeCap(Paint.Cap.ROUND);
         drawPaint.setAntiAlias(true);
+
+
     }
 
     private void setupDrawing() {
@@ -114,5 +116,8 @@ public class DrawingView extends View {
     }
     public float getLastBrushSize(){
         return lastBrushSize;
+    }
+
+    public void setColor(String color) {
     }
 }
